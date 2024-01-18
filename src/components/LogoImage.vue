@@ -1,8 +1,6 @@
-<!-- ExampleComponent.vue -->
-
 <template>
     <div>
-      <img :src="htldornbirn" alt="Logo" />
+      <img :src="htldornbirn" alt="team" class="htl"/>
     </div>
   </template>
   

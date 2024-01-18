@@ -1,0 +1,75 @@
+table.Infos {
+    border-collapse: separate;
+    border-spacing: 100px 0; /* horizontaler und vertikaler Abstand */
+}
+
+.informations {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* oder die maximale Breite, die Sie für den Container festlegen möchten */
+  }
+  
+  .Infos {
+    margin: auto; /* Zentriert die Tabelle horizontal */
+    border-collapse: collapse; /* Entfernt den Abstand zwischen den Zellen */
+    width: 80%; /* Oder die gewünschte Breite der Tabelle */
+  }
+  
+  /* Weiterer Stil für th und td könnte so aussehen: */
+  .Infos th, .Infos td {
+    text-align: center; /* Stellt sicher, dass der Text links ausgerichtet ist */
+    padding: 8px; /* Fügt etwas Platz innerhalb der Zellen hinzu */
+  }
+  
+  /* Für das Zentrieren des Textes in den Zellen */
+  .Infos th, .Infos td {
+    vertical-align: middle; /* Vertikales Zentrieren des Inhalts */
+  }
+  /* Sie können weitere individuelle Stile hinzufügen, um das Aussehen anzupassen */
+
+.team
+{
+    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+    width: 80px;
+    height: 80px;
+    height: auto;    /* Maintain the image's aspect ratio */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.h2
+{
+    display: inline-block; /* This will allow images to be affected by text-align */
+    vertical-align: middle;
+    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+    width: 80px;
+    height: 80px;
+    height: auto;    /* Maintain the image's aspect ratio */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.ziel
+{
+    display: inline-block; /* This will allow images to be affected by text-align */
+    vertical-align: middle;
+    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+    width: 80px;
+    height: 80px;
+    height: auto;    /* Maintain the image's aspect ratio */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+  
