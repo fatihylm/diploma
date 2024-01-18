@@ -1,3 +1,5 @@
+<!-- ExampleComponent.vue -->
+
 <template>
     <div>
       <img :src="htldornbirn" alt="Logo" />

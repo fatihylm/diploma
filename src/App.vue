@@ -2,21 +2,27 @@
   <div id="app">
     <DragDrop />
     <LogoVue />
-    <AboutSection />
   </div>
 </template>
 
 <script>
 import DragDrop from "@/components/DragDrop.vue";
 import LogoVue from "./components/LogoImage.vue";
-import AboutSection from "./components/AboutSection.vue";
 
 export default {
   name: "App",
   components: {
     DragDrop,
     LogoVue,
-    AboutSection,
   },
 };
 </script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
