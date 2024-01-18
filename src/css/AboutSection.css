@@ -1,0 +1,16 @@
+.informations {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Fügen Sie hier weitere Stile für Ihre Tabellen hinzu */
+    grid-column-gap: 20px;
+}
+
+.table-text{
+    font-size: 1000px;
+}

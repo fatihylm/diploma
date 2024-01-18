@@ -13,7 +13,8 @@ h1 {
 
 .main {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
+    /* Stack items vertically */
     align-items: center;
     margin-top: 20px;
 }
@@ -23,11 +24,40 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    /* Hintergrundfarbe des Headers anpassen */
+    color: #fff;
+    /* Textfarbe anpassen */
+    padding: 10px 0;
+    /* Abstand oben/unten und links/rechts anpassen */
+    text-align: center;
+    /* Text zentrieren */
 }
 
-button{
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Textfarbe anpassen */
+    padding: 10px 0;
+    /* Abstand oben/unten und links/rechts anpassen */
+    text-align: center;
+    /* Text zentrieren */
+    font-size: xx-large;
+}
+
+
+button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 35px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
@@ -35,14 +65,17 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 button:hover {
     background-color: #45a049;
 }
 
-.htldornbirn{
+.htldornbirn {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
 }

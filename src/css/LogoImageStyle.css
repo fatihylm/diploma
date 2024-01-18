@@ -1,6 +1,8 @@
 img
 {
-    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+  max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+  width: 80px;
+  height: 80px;
   height: auto;    /* Maintain the image's aspect ratio */
   border-radius: 5px; /* Add border-radius for rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
@@ -8,5 +10,5 @@ img
   /* Position the image on the right top side */
   position: fixed;
   top: 10px; /* Adjust the top position as needed */
-  right: 10px; /* Adjust the right position as needed */
+  left: 10px; /* Adjust the right position as needed */
 }
