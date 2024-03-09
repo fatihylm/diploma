@@ -26,7 +26,6 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {
@@ -45,11 +44,31 @@ export default {
         const fileExtension = fileName.slice(((fileName.lastIndexOf(".") - 1) >>> 0) + 2);
 
         if (fileExtension === 'csv') {
-          alert('Converting...');
+          this.uploadFile(selectedFile);
         } else {
           alert('Please select a valid CSV file.');
           event.target.value = ''; // Clear the input field
         }
+      }
+    },
+    async uploadFile(file) {
+      let formData = new FormData();
+      formData.append('file', file);
+
+      try {
+        const response = await fetch('/file_upload', {
+          method: 'POST',
+          body: formData,
+        });
+        const result = await response.json();
+        if (response.ok) {
+          alert('File successfully uploaded: ' + result.message);
+        } else {
+          alert('Error: ' + result.error);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Upload failed. Please try again.');
       }
     },
   },
